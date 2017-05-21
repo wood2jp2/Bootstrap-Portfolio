@@ -1,4 +1,4 @@
-.jumbotron {
+.home {
 	background-image: url(Images/pudongareaoverbundshanghai.jpg);
 	height: 630px;
 	color: white;
@@ -10,8 +10,37 @@
 	margin-top: 0px;
 	background-color: #26173a;
 	height: 60px;
+	bottom: 0px;
 }
 
 img {
 	border-radius: 8%;
+}
+
+.basicPortfolio {
+	background-image: url(Images/basicportfolio.png);
+	background-size: 400px;
+	width: 250px;
+	height: 250px;
+}
+
+.RockPaperScissors {
+	background-image: url(Images/rps.jpg);
+	background-size: 260px;
+	width: 250px;
+	height: 250px;
+}
+
+.ProjectEuler {
+	background-image: url(Images/pe.jpg);
+	background-size: 400px;
+	width: 250px;
+	height: 250px;
+}
+
+.Bootstrap {
+	background-image: url(Images/boostrap.jpg);
+	background-size: 260px;
+	width: 250px;
+	height: 250px;
 }
