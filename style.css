@@ -4,13 +4,25 @@
 	color: white;
 	text-align: center;
 	margin-bottom: 0px;
+	padding-bottom: 30px;
+}
+
+.navbar {
+	background-color: #26173a;
 }
 
 .footer {
-	margin-top: 0px;
 	background-color: #26173a;
 	height: 60px;
 	bottom: 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-right: 20px;
+	position: fixed;
+	margin-top: 0px;
+	clear:left;
 }
 
 img {
@@ -43,4 +55,73 @@ img {
 	background-size: 260px;
 	width: 250px;
 	height: 250px;
+}
+
+.Megadeth {
+	background-image: url(http://www.jacksonguitars.com/blog/wp-content/uploads/2011//07/WARRIOR.png);
+	background-size: 260px;
+	width: 250px;
+	height: 250px;
+}
+
+.etc {
+	background-image: url(http://vid.geekazine.com/dith/uploads/2013/03/rick-astley-dayintechhistory-com.jpg);
+	background-size: 260px;
+	width: 250px;
+	height: 250px;
+	margin-bottom: 10px;
+}
+
+.btn {
+	margin-bottom: 10px;
+	background-color: #26173a;
+	top: 50px;
+}
+
+.btn:hover {
+	background-color: #6F2393;
+	font-size: 20px;
+}
+
+.list-group-item-success:hover {
+	background-color: #7132ba;
+}
+
+nav {
+	padding-top: 10px;
+	color: white;
+}
+
+.headerlinks:hover {
+	font-size: 20px;
+}
+
+.input-group {
+	top:100px;
+	margin: 30px;
+}
+
+.submitbutton, .clearbutton {
+	top: 50px;
+	background-color: #26173a;
+	position: relative;
+	color: white;
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.submitbutton:hover, .clearbutton:hover {
+	text-decoration: none;
+	background-color: #6F2393;
+	font-size: 35px;
+}
+
+body {
+	font-family: 'Coming Soon', cursive;
+}
+
+a {
+	color: white;
 }
